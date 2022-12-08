@@ -47,7 +47,7 @@ h2 {
   padding: 10px 0px 10px 10px;
 }
 
-img {
+img, iframe {
   width: 100%;
   height: 50vh;
   object-fit: cover;
@@ -72,9 +72,9 @@ img {
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #000;
   cursor: pointer;
-  color: #ffffff;
+  color: #000;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -82,7 +82,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#FE5BAC60;
 }
 
 .myButton:active {
